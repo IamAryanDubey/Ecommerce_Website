@@ -127,19 +127,17 @@ header svg{
   .ItemsContainer{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 1vw;
-    width: 80vw;
-    margin: 0 auto;
-    
+    gap: 6vw;
+    width: 95vw;
+    /* margin: aut auto; */
   }
 
   .itemCard{
-    padding: 0;
+    margin-left: 30px;
     border-radius: 6px;
     overflow: hidden;
     width: 100%;
     box-shadow: 0px 0px 6px 1px #CFCFCF;
-
   }
   .itemCard a{
     text-decoration: none;

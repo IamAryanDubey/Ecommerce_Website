@@ -38,6 +38,7 @@ const handleAddToCart = (item) => {
 
       <div className='descriptionBlocks'>
         <div className='priceandbtn'>
+        <div><img className='' src="../public/images.jpeg" alt={item.title} style={{display:'flex'}}/></div>
           <div className='infoBlock itemTitle'> 
             <h2 className=''>{item.title}</h2>
           </div>

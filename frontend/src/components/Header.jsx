@@ -15,7 +15,7 @@ const Header = () => {
     <header>
       <div className='flexCol'>
         <Link to='/' className='logo'>
-          <p>LOGO</p>
+          <p style={{color:'black', textDecoration: 'none', fontSize: "30px", fontWeight:'bolder'}}>Ecommerce Website</p>
         </Link>
       </div>
       <div className='cart-menu'>
